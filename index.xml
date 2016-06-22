@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend Weekly</title>
+    <link>https://frontendweekly.tokyo/</link>
+    <description>Recent content on Frontend Weekly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://frontendweekly.tokyo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Frontend Weekly Vol.75</title>
+      <link>https://frontendweekly.tokyo/backnumbers/75/</link>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/75/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-75:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;Frontend Weekly Vol.75&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;async-and-await-by-guillermo-rauch-https-zeit-co-blog-async-and-await:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://zeit.co/blog/async-and-await&#34;&gt;Async and Await by Guillermo Rauch&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Callback Hellを抜けるためのPromise。そしてPromiseをより素直に書くためのAsync/Await。Guillermo Rauch氏は記事でそのAsync/Awaitが役に立つ場面をPromiseでよくあるパターンから紹介し、Async and Awaitの使い方、そして問題点についても触れて行く。&lt;/p&gt;
+
+&lt;h3 id=&#34;safari-10-0-https-developer-apple-com-library-prerelease-content-releasenotes-general-whatsnewinsafari-articles-safari-10-0-html:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html&#34;&gt;Safari 10.0&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Safari 10.0でサポートされる各種APIやメディアなどについて。macOSだけでなくモバイルデバイスで大きなシェアを持つiOSの次のバージョンにも搭載されるので、開発者にとっては嬉しい知らせだ。&lt;/p&gt;
+
+&lt;h3 id=&#34;pixel-density-demystified-by-peter-nowell-https-medium-com-pnowelldesign-pixel-density-demystified-a4db63ba2922-jpljrkr8g:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://medium.com/@pnowelldesign/pixel-density-demystified-a4db63ba2922#.jpljrkr8g&#34;&gt;Pixel Density, Demystified by Peter Nowell&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ピクセル密度とは一体なんなのか?&lt;/strong&gt;&lt;br /&gt;
+iPhoneがRetinaディスプレイを搭載してから幾年か経て、ピクセル密度の高いディスプレイがある生活が一般化してきたと言えるだろう。そこで問題になるのはピクセルとはなんなのか。当たり前に使ってきたピクセルという単位とピクセル密度の関係性をわかりやすく解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-we-do-visual-regression-testing-by-nick-dunn-https-medium-com-friday-people-how-we-do-visual-regression-testing-af63fa8b8eb1-2cz0slk8j:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://medium.com/friday-people/how-we-do-visual-regression-testing-af63fa8b8eb1#.2cz0slk8j&#34;&gt;How we do visual regression testing by Nick Dunn&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ソフトウェアのビジュアルをテストする方法&lt;/strong&gt;&lt;br /&gt;
+ユニット・テストやE2Eテストは開発者にとってごく当たり前の存在になって来ているが、ソフトウェアのビジュアルをテストすることについてはそれほどでもない。&lt;br /&gt;
+これまでに様々なテストツールを試してきたがなかなか「これ」というツールに出会えなかったFridayが&lt;a href=&#34;https://github.com/wearefriday/spectre&#34;&gt;Spectre&lt;/a&gt;というツールを開発。記事ではそのツールのアーキテクチャについて解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;enhancing-optimistically-by-filament-group-https-www-filamentgroup-com-lab-enhancing-optimistically-html:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://www.filamentgroup.com/lab/enhancing-optimistically.html&#34;&gt;Enhancing Optimistically by Filament Group&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;”Cut the mustard”は楽観的すぎる?&lt;/strong&gt;&lt;br /&gt;
+プログレッシブ・エンハンスメントのアプローチである“Cutting the Mustard”は楽観的なテストすぎるかもしれない。そんな疑問から始まり、どんなケースで楽観的なのか、そして最適化に向けた手法について詳しく解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;building-products-by-the-year-of-the-looking-glass-https-medium-com-the-year-of-the-looking-glass-building-products-91aa93bea4bb-j0egyh77r:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://medium.com/the-year-of-the-looking-glass/building-products-91aa93bea4bb#.j0egyh77r&#34;&gt;Building Products by The Year of the Looking Glass&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Facebookのプロジェクト・マネジメント&lt;/strong&gt;&lt;br /&gt;
+FacebookにてProduct design VPを務めるJulie Zhuo氏による、Facebookがこれまで気づき上げてきたプロダクトを作る上でのフレームワークについて紹介。彼女によると、まだ1%の完成度だそう。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-worry-less-about-being-a-bad-programmer-https-www-stilldrinking-org-how-to-worry-less-about-being-a-bad-programmer:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://www.stilldrinking.org/how-to-worry-less-about-being-a-bad-programmer&#34;&gt;How to Worry Less About Being a Bad Programmer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ダメなプログラマーかも知れない症候群を打破する方法&lt;/strong&gt;&lt;br /&gt;
+自分は開発者なのか、それともGoogleで検索するのが得意なだけなのか。誰しもが考えることながら、悩み始めればキリがない。そんな悩みに救いとなる見方で溢れた記事。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;what-we-talk-about-when-we-talk-about-web-performance-by-patty-toland-https-docs-google-com-presentation-d-11flfu-mq5zm3wafzkmbezjsu6dy9cp2hh0nju11oppi-mobilepresent-slide-id-g3b7311b13-20:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/11fLFu-Mq5zM3wAfZkMbEzJSu6dy9cp2HH0njU11OPPI/mobilepresent?slide=id.g3b7311b13_20&#34;&gt;What we talk about when we talk about Web Performance by Patty Toland&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Flilament GroupのPatty Tolandによるパフォーマンスに関するスライド。100枚を超える貴重なデータ(USのデータがメイン)がたくさん含まれたスライド。&lt;/p&gt;
+
+&lt;h3 id=&#34;cancelable-promises-by-domenic-denicola-https-docs-google-com-presentation-d-1v4vmc54gjkwass1nfet9ywc-qovoflerxd5qtpmpc8u-preview-slide-id-gc6f9e470d-0-0:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1V4vmC54gJkwAss1nfEt9ywc-QOVOfleRxD5qtpMpc8U/preview?slide=id.gc6f9e470d_0_0&#34;&gt;Cancelable promises by Domenic Denicola&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Promiseをキャンセルする。そのステートの存在意義や取り扱い、そしてシンタックスについてのスライド。Cancelable Promisesについて詳しくは&lt;a href=&#34;https://domenic.github.io/cancelable-promise/&#34;&gt;こちらもどうぞ&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:7ea161a55510a0e6b57b12ca0f9226b7&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://una.im/a11y-for-the-masses/&#34;&gt;&lt;strong&gt;It’s Not About Morals: Accessibility is for the Masses&lt;/strong&gt;&lt;/a&gt;: アクセシビリティは特定のグループに向けた技術ではない。基礎となるポイントについて紹介&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/updates/2016/06/performance-observer?hl=en&#34;&gt;&lt;strong&gt;Performance Observer - Efficient Access to Performance Data by Google Developers&lt;/strong&gt;&lt;/a&gt;: Chrome 52から使えるPerformance Observerについて&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://creator.dwango.co.jp/8741.html&#34;&gt;&lt;strong&gt;SVGでプログラマブルな書体を作る話 by dwango creators&amp;rsquo; blog&lt;/strong&gt;&lt;/a&gt;: フォントをSVGで作り、リアルタイムにJavaScriptでスタイルを変更させる方法について&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://icons8.com/articles/how-we-lost-47-of-our-users-after-a-redesign/&#34;&gt;&lt;strong&gt;How We Lost 47% of Our Users After a Redesign by Icons8&lt;/strong&gt;&lt;/a&gt;: リデザインにより47%ものユーザを失った話。何故そうなったかの分析&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/davidmarkclements/0x&#34;&gt;&lt;strong&gt;davidmarkclements/0x: Flame Graph Profiling with a Single Command&lt;/strong&gt;&lt;/a&gt;: Nodeのスタックトレースをビジュアライズするコマンドラインツール&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.74</title>
+      <link>https://frontendweekly.tokyo/backnumbers/74/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/74/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-74:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;Frontend Weekly Vol.74&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;progressively-less-progressive-by-andrew-betts-https-trib-tv-2016-06-05-progressively-less-progressive:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://trib.tv/2016/06/05/progressively-less-progressive/&#34;&gt;Progressively less progressive by Andrew Betts&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;PWAのProgressiveさへの疑問&lt;/strong&gt;&lt;br /&gt;
+前号でも紹介したJeremy Keith氏やRemy Sharp氏らに続き、Andrew Betts氏もPWAへの疑問/意見を出した。関連記事にもあるAlex Russell氏の記事にて一旦の収束を見る模様。結果だけではなく、全体の流れの中に大事な議論が含まれているのでぜひ読んで欲しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;関連:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@codepo8/progressive-web-apps-and-our-regressive-approach-ff4ec13d22b6#.h2406wthv&#34;&gt;Progressive Web Apps and our regressive approach by Christian Heilmann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infrequently.org/2016/06/pwa-discovery-you-aint-seen-nothin-yet/&#34;&gt;PWA Discovery: You Ain’t Seen Nothin Yet by Alex Russell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;don-t-use-ios-meta-tags-irresponsibly-in-your-progressive-web-apps-by-maximiliano-firtman-https-medium-com-firt-dont-use-ios-web-app-meta-tag-irresponsibly-in-your-progressive-web-apps-85d70f4438cb-3i9bt4t5z:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://medium.com/@firt/dont-use-ios-web-app-meta-tag-irresponsibly-in-your-progressive-web-apps-85d70f4438cb#.3i9bt4t5z&#34;&gt;Don’t use iOS meta tags irresponsibly in your Progressive Web Apps by Maximiliano Firtman&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;PWAとiOSメタタグは不仲?&lt;/strong&gt;&lt;br /&gt;
+apple-mobile-web-app-capableのメタタグに覚えがある人も多少はいることでしょう。そのメタタグとPWAの”Add to Homescreen”との相性をMaximiliano Firtmanが検証。実際にPWAなサイトの事例もあるのでわかりやすい。&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-javascript-testing-tools-for-es6-by-x-team-http-x-team-com-2016-05-setting-up-javascript-testing-tools-for-es6:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;http://x-team.com/2016/05/setting-up-javascript-testing-tools-for-es6/&#34;&gt;Setting Up JavaScript Testing Tools for ES6 by X-Team&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ES6のテストツールのセットアップ&lt;/strong&gt;&lt;br /&gt;
+Babelなどを使ってES6をプロダクションで利用し始めているプロジェクトも増えてきただろう。ではユニット・テストのツールはどうやってES6のコードをテストするべきなのか?
+記事ではユニットテストツールだけではなく、テストランナーやWebpack、Browserifyのセットアップ方法について紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;css-frameworks-are-like-sex-by-mike-street-https-medium-com-mikestreety-css-frameworks-are-like-sex-2eebf7b151c8-17nh29079:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://medium.com/@mikestreety/css-frameworks-are-like-sex-2eebf7b151c8#.17nh29079&#34;&gt;CSS Frameworks are like sex… by Mike Street&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CSSフレームワークはアレに似ている&lt;/strong&gt;
+数えてはいないが”新しい”CSSフレームワークは、新しいJavaScriptのフレームワークよりも頻繁に公開されている。しかし大抵のケースは実際には使っていないか、プロジェクト/プロダクトに依存したフレームワークがほとんどだろう。フレームワークはコードリードのネタくらいに考えておいたほうがいいだろう。&lt;/p&gt;
+
+&lt;h3 id=&#34;battling-bem-extended-edition-10-common-problems-and-how-to-avoid-them-by-smashing-magazine-https-www-smashingmagazine-com-2016-06-battling-bem-extended-edition-common-problems-and-how-to-avoid-them:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/&#34;&gt;Battling BEM (Extended Edition): 10 Common Problems And How To Avoid Them by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;BEMでよくある10の問題と解決法&lt;/strong&gt;&lt;br /&gt;
+BEM(かそれに類する)ネーミング・ルールを利用していると、どうしても避けて通れない問題達が存在する。そんなBEMのあるあるな疑問と解決について解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;css-at-bbc-sport-part-1-by-shaun-bent-https-medium-com-shaunbent-css-at-bbc-sport-part-1-bab546184e66-kguwtrakm:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66#.kguwtrakm&#34;&gt;CSS at BBC Sport (Part 1) by Shaun Bent&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;BBCスポーツのCSSについて&lt;/strong&gt;&lt;br /&gt;
+イギリスBBCのスポーツのセクションがリニューアル。そのリニューアルの裏側の一部であるCSSについてシニアエンジニアであるShaun Bent氏が解説。Harry Roberts氏のITCSSの導入はかなり効果的だった様子。&lt;/p&gt;
+
+&lt;h3 id=&#34;on-icons-by-ia-https-ia-net-know-how-on-icons:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://ia.net/know-how/on-icons&#34;&gt;On Icons by iA&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;アイコンについて&lt;/strong&gt;&lt;br /&gt;
+アイコンそのものだけが伝えられるメッセージは決して多くはない。アイコンのみに頼ったナビゲーションやボタンがもたらす認知の問題について、そしてその問題の解決のためのテキストの使い方について解説。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:b9790ac8c03e5444b0785c5f90b5d73f&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e#.ozc8hmwcg&#34;&gt;&lt;strong&gt;JavaScript Factory Functions vs Constructor Functions vs Classes by JavaScript Scene&lt;/strong&gt;&lt;/a&gt;: JavaScriptのファクトリ関数、コンストラクタ関数そしてクラスの闘い。ES6版&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webkit.org/blog/6425/memory-debugging-with-web-inspector/&#34;&gt;&lt;strong&gt;Memory Debugging with Web Inspector by WebKit&lt;/strong&gt;&lt;/a&gt;: Safariに搭載されたWeb Inspectorを使ったメモリ・デバッグ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.cloudfour.com/autofill-what-web-devs-should-know-but-dont/&#34;&gt;&lt;strong&gt;Autofill: What web devs should know, but don’t by Cloud Four Blog&lt;/strong&gt;&lt;/a&gt;: 開発者が知っておくべきオートフィルの機能について&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/javascript-scene/the-shocking-secret-about-static-types-514d39bf30a3#.b494nec19&#34;&gt;&lt;strong&gt;The Shocking Secret About Static Types by JavaScript Scene&lt;/strong&gt;&lt;/a&gt;: 型に関する驚くべき秘密&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/learning/mechanics-interface-design&#34;&gt;&lt;strong&gt;The mechanics of interface design by O&amp;rsquo;Reilly Media&lt;/strong&gt;&lt;/a&gt;: インターフェースデザインの機構について&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/ideas/building-a-better-code-review-process&#34;&gt;&lt;strong&gt;Building a better code review process by O&amp;rsquo;Reilly Media&lt;/strong&gt;&lt;/a&gt;: コードレビューのプロセスをリファクタリング&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.73</title>
+      <link>https://frontendweekly.tokyo/backnumbers/73/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/73/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-73:df434a9761dafb45178a3b2dd6709987&#34;&gt;Frontend Weekly Vol.73&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:df434a9761dafb45178a3b2dd6709987&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;houdini-demystifying-css-by-google-developers-https-developers-google-com-web-updates-2016-05-houdini-hl-en:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://developers.google.com/web/updates/2016/05/houdini?hl=en&#34;&gt;Houdini – Demystifying CSS by Google Developers&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CSSを根本から変えるかも知れないHoudiniについて&lt;/strong&gt;&lt;br /&gt;
+着実に前進しているExtensible Web Manifestの一環でもあるHoudiniと呼ばれるCSSエンジンの一部を開発者に公開しようという壮大なプロジェクトの直近までのまとめ。CSSを書くことを生業としている人は必見。&lt;/p&gt;
+
+&lt;h3 id=&#34;building-a-visual-language-by-airbnb-design-http-airbnb-design-building-a-visual-language:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;http://airbnb.design/building-a-visual-language/&#34;&gt;Building a Visual Language by Airbnb Design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ビジュアル言語を造ること&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Airbnbがデザイン・カンパニーであることは周知の通り。ではその期待に応えるためにどんなことをしているのか。その一部であるデザインの言語化について、どんなことをしたのか、そこから学ぶべき事とはなにかについて詳しく解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;regressive-web-apps-by-adactio-https-adactio-com-journal-10708:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://adactio.com/journal/10708&#34;&gt;Regressive Web Apps by Adactio&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Progressive Web Appsへの疑問&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jeremy Keith氏によるProgressive Web Appsのベストプラクティスへの疑問。彼が信じるWebらしさを守るためになかなか強い言葉で綴られている。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Chrome developers have decided that displaying URLs is not “best practice”. It was filed as a bug.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;この引用への反論がほとんど。&lt;/p&gt;
+
+&lt;h3 id=&#34;3-different-kinds-of-prototypal-inheritance-es6-edition-by-javascript-scene-https-medium-com-javascript-scene-3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9-e4isg9nta:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9#.e4isg9nta&#34;&gt;3 Different Kinds of Prototypal Inheritance: ES6+ Edition by JavaScript Scene&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;3つのプロトタイプベースの継承パターン ES6+編&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Eric Elliot氏によるプロトタイプベースの継承パターンについて。以前にES5バージョンで紹介していた、3つのパターンをES6以上のバージョンに書き換えて紹介。初見の方も、以前のバージョンを知っている方にもおすすめ。&lt;/p&gt;
+
+&lt;h3 id=&#34;why-i-m-not-waiting-on-await-by-getiblog-https-blog-getify-com-not-awaiting-1:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://blog.getify.com/not-awaiting-1/&#34;&gt;Why I’m Not Waiting On ‘await’ by getiblog&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;await&lt;/code&gt;の実践的ユースケースと&lt;code&gt;generators&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;次バージョンのECMAScriptにて実装される予定の&lt;code&gt;await&lt;/code&gt;。非同期のコードをまるで同期のコードのように取り扱える便利な機能。Kyle Simpson氏はまずその機能について詳しく解説し、後編で&lt;code&gt;await&lt;/code&gt;に足りてない機能と、それを埋める&lt;code&gt;generators&lt;/code&gt;について紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;understanding-the-css-property-value-syntax-by-smashing-magazine-https-www-smashingmagazine-com-2016-05-understanding-the-css-property-value-syntax:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/05/understanding-the-css-property-value-syntax/&#34;&gt;Understanding The CSS Property Value Syntax by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CSSのプロパティ値シンタックスの読み解き方&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CSSの仕様書などにある&lt;code&gt;[&amp;lt;number&amp;gt; | &amp;lt;percentage&amp;gt;]{1,4} &amp;amp;&amp;amp; fill?&lt;/code&gt;のような不思議なシンタックスに見覚えはあるだろうか?&lt;br /&gt;
+ルールがわからないと完全に暗号にしか見えないが、(もちろん)きちんと意味のある文字列。言うまでもないが、CSSの仕様書は素晴らしいリファレンスなので、シンタックスを覚えて、仕様書を読む習慣を身につけよう。&lt;/p&gt;
+
+&lt;h3 id=&#34;our-best-practices-are-killing-mobile-web-performance-by-molily-http-molily-de-mobile-web-performance:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;http://molily.de/mobile-web-performance/&#34;&gt;Our best practices are killing mobile web performance by molily&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;(これまでの)モバイル・パフォーマンスのベストプラクティスを見直すべき理由&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;モバイルという文脈におけるパフォーマンス改善へのアプローチは、この数年で｢ベスト・プラクティス｣が体系化して来た。しかしMathias Schäfer氏はそのベストプラクティスに対して疑問を呈した。3つのよく知られる｢ベスト・プラクティス｣がパフォーマンスを悪くしているケーススタディを紹介。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:df434a9761dafb45178a3b2dd6709987&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;css-animations-orchestrated-by-david-khourshid-http-slides-com-davidkhourshid-deck-17:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;http://slides.com/davidkhourshid/deck-17#/&#34;&gt;CSS Animations, Orchestrated by David Khourshid&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSのアニメーションをどうやってまとめ上げるのか? 音楽の要素になぞらえてアニメーションを美しくオーケストレーションするために知っておくべきアプローチを紹介。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:df434a9761dafb45178a3b2dd6709987&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:df434a9761dafb45178a3b2dd6709987&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:df434a9761dafb45178a3b2dd6709987&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://leaverou.github.io/multirange/&#34;&gt;&lt;strong&gt;Multirange: A tiny polyfill for HTML5 multi-handle sliders.&lt;/strong&gt;&lt;/a&gt;: Lea Verou作のinput type=&amp;ldquo;range&amp;rdquo;のポリフィル。CSSもJSもとてもシンプルなものになっている&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitsofco.de/the-box-shadow-property/&#34;&gt;&lt;strong&gt;The box-shadow Property&lt;/strong&gt;&lt;/a&gt;: box-shadowプロパティのオーバービュー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://designingforperformance.com/&#34;&gt;&lt;strong&gt;Designing for Performance by Lara Callender Hogan&lt;/strong&gt;&lt;/a&gt;: Lara Hogan氏によるO’Reilly刊のDesigning for PerformanceがHTML上で無料&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://snook.ca/archives/html_and_css/semantic-css&#34;&gt;&lt;strong&gt;Semantic CSS by Snook.ca&lt;/strong&gt;&lt;/a&gt;: Jonathan Snook氏によるCSSのセマンティックについて&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kryogenix.org/days/2016/05/24/the-importance-of-urls/&#34;&gt;&lt;strong&gt;The importance of URLs by as days pass by&lt;/strong&gt;&lt;/a&gt;: PWAのベストプラクティスへの警鐘&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hacks.mozilla.org/2016/05/css-coding-techniques/&#34;&gt;&lt;strong&gt;CSS coding techniques by Mozilla Hacks&lt;/strong&gt;&lt;/a&gt;: メンテナンスしやすいCSSのための、この近年でよく取り上げられるTipsがまとめられている&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.72</title>
+      <link>https://frontendweekly.tokyo/backnumbers/72/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/72/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-72:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;Frontend Weekly Vol.72&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;basic-steps-on-how-to-remove-complexity-out-of-ui-design-by-jin-su-park-https-medium-com-makegoodamazing-basic-steps-on-how-to-remove-complexity-out-of-ui-design-8c785131993c-vhktbyogj:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://medium.com/@makegoodamazing/basic-steps-on-how-to-remove-complexity-out-of-ui-design-8c785131993c#.vhktbyogj&#34;&gt;Basic steps on how to remove complexity out of UI Design by Jin Su Park&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;UIから複雑性を排除するために必要な基本のプロセス&lt;/strong&gt;&lt;br /&gt;
+どうしても複雑化しやすいUIをどうやってユーザが求めるゴールを達成するために最低限必要なシンプルなものにしていくべきかの指針。まずはゴールまでのストーリーから始まり、レイアウトパターン、コンテント・レイヤー、グループ毎の差異のコントラストなどについてわかりやすく解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;debugging-css-by-ben-frain-https-benfrain-com-debugging-css:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://benfrain.com/debugging-css/&#34;&gt;Debugging CSS by Ben Frain&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;CSSのデバッグ・アプローチ&lt;/strong&gt;&lt;br /&gt;
+CSSのデバッグは言語の性質的に難しいものである、という先入観があるかもしれないが、CSSのデバッグが難しいのはそれだけが理由ではなく、単にデバッグするためのプロセスを明確に持っていないからという理由も大きい。記事ではBen Frains氏が実践している3つのプロセスについて紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;refactoring-a-javascript-video-store-http-martinfowler-com-articles-refactoring-video-store-js:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;http://martinfowler.com/articles/refactoring-video-store-js/&#34;&gt;Refactoring a JavaScript video store&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;JavaScriptの実践リファクタリング・フロー&lt;/strong&gt;&lt;br /&gt;
+プログラミングに関する本の中でも必読の1冊である、&lt;strong&gt;リファクタリング&lt;/strong&gt;の作者であるMartin Fowler氏による、JavaScriptのリファクタリング・テクニックとワークフロー。かなり具体的に、ステップ毎にスニペットがあるので参考になる。&lt;/p&gt;
+
+&lt;h3 id=&#34;5-questions-every-unit-test-must-answer-by-javascript-scene-https-medium-com-javascript-scene-what-every-unit-test-needs-f6cd34d9836d-2qcysg13a:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.2qcysg13a&#34;&gt;5 Questions Every Unit Test Must Answer by JavaScript Scene&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;すべてのユニット・テストで答えなければならない5つの質問&lt;/strong&gt;&lt;br /&gt;
+なかなか始められないユニット・テスト。そんなユニット・テストがなんのためにあるのか。そして、どうテストに対してアプローチするべきなのか、良いユニット・テストとは何かなどについてEric Elliott氏が解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;six-nifty-es6-tricks-http-www-2ality-com-2016-05-six-nifty-es6-tricks-html:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;http://www.2ality.com/2016/05/six-nifty-es6-tricks.html&#34;&gt;Six nifty ES6 tricks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ES6で使える6つの便利なトリック達&lt;/strong&gt;
+&lt;a href=&#34;http://exploringjs.com/&#34;&gt;Exploring ES6&lt;/a&gt;の作者であるDr. Axelより、ES6ならではの機能を使った6つのトリック。クレバーなトリックにも思えるが、言語を活かした便利な技達。&lt;/p&gt;
+
+&lt;h3 id=&#34;aria-tabs-ui-problems-and-standards-by-alastairc-https-alastairc-ac-2016-05-aria-tabs-ui-problems-and-standards:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://alastairc.ac/2016/05/aria-tabs-ui-problems-and-standards/&#34;&gt;ARIA tabs, UI problems and standards by AlastairC&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ARIA tabs。UIにおける問題と標準&lt;/strong&gt;&lt;br /&gt;
+ARIA tabsを使ったUIのいくつかを例にして、キーボードでの操作や音声ブラウザによる読み上げと、例示した実際のUIが抱えるいくつかの問題点とその解決について紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;radio-buttons-ux-design-by-ux-planet-https-uxplanet-org-radio-buttons-ux-design-588e5c0a50dc-ioon4vm5i:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://uxplanet.org/radio-buttons-ux-design-588e5c0a50dc#.ioon4vm5i&#34;&gt;Radio Buttons UX Design by UX Planet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ラジオボタンのUX&lt;/strong&gt;&lt;br /&gt;
+フォームにおいて基本のUIであるラジオボタンのUXについて。ラジオボタンの起源から始まり、8つのベストプラクティス、チェックボックスとの使い分けについて解説。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;building-an-offline-page-for-theguardian-com-jsconf-budapest-may-2016-by-oliver-joseph-ash-https-speakerdeck-com-oliverjash-building-an-offline-page-for-theguardian-dot-com-jsconf-budapest-may-2016:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/oliverjash/building-an-offline-page-for-theguardian-dot-com-jsconf-budapest-may-2016&#34;&gt;Building an Offline Page for theguardian.com — JSConf Budapest, May 2016 by Oliver Joseph Ash&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The Gurdian誌におけるオフラインページの開発について。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:ddda5e2e9221f465f83654ba2e9c1ab0&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://browserdiet.com/calories/&#34;&gt;&lt;strong&gt;Browser Calories&lt;/strong&gt;&lt;/a&gt;: Webページのペイロードの内訳を調査するブラウザの拡張機能&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sitespeedio/coach&#34;&gt;&lt;strong&gt;sitespeedio/coach: Clear Eyes. Full Hearts. Can’t Lose.&lt;/strong&gt;&lt;/a&gt;: Webページのパフォーマンス計測ツール&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;&lt;strong&gt;GoogleChrome/lighthouse: auditing and performance metrics for Progressive Web Apps&lt;/strong&gt;&lt;/a&gt;: Progressive Web Appのためのパフォーマンスやアクセシビリティのチェックツール&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://codeutopia.net/blog/2016/05/23/sinon-js-quick-tip-how-to-stubmock-complex-objects-such-as-dom-objects/&#34;&gt;&lt;strong&gt;Sinon.js quick tip: How to stub/mock complex objects, such as DOM objects by CodeUtopia&lt;/strong&gt;&lt;/a&gt;: DOMのような複雑なオブジェクトをSinon.jsでどうStub/mockするのか&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csspurge.com/&#34;&gt;&lt;strong&gt;CSS Purge - Saving the web 1kb at a time.&lt;/strong&gt;&lt;/a&gt;: CSSに関する軽量化手法についてと現状のデータ。特に後者は興味深い&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/delapuente/service-workers-101/&#34;&gt;&lt;strong&gt;delapuente/service-workers-101: An infographic to summarize the most important parts of the Service Workers&amp;rsquo; API&lt;/strong&gt;&lt;/a&gt;: Service workerに関するインフォグラフィック集&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/frend/frend.co&#34;&gt;&lt;strong&gt;frend/frend.co: Frend — A collection of accessible, modern front-end components.&lt;/strong&gt;&lt;/a&gt;: アクセシブルなUIコンポーネント集&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.71</title>
+      <link>https://frontendweekly.tokyo/backnumbers/71/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/71/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-71:be840c32a568ef666060a88a8b70be9f&#34;&gt;Frontend Weekly Vol.71&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:be840c32a568ef666060a88a8b70be9f&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;creating-a-living-style-guide-a-case-study-by-smashing-magazine-https-www-smashingmagazine-com-2016-05-creating-a-living-style-guide-case-study:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study/&#34;&gt;Creating A Living Style Guide: A Case Study by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;Living&amp;rdquo;スタイルガイドをどう構成し、更新するべきか。単にコメントを書けばいいというだけでは終わらない、実践主義的なアドバイスが多く参考になる。最終的にはプロダクトのニーズに合わせて自作する所も実践主義。&lt;/p&gt;
+
+&lt;h3 id=&#34;a-pocket-sized-guide-to-using-svg-icon-sprites-in-web-apps-by-ben-schwarz-https-medium-com-benschwarz-a-pocket-sized-guide-to-using-svg-icon-sprites-in-web-apps-215152b7718e-7ek9fmbaq:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://medium.com/@benschwarz/a-pocket-sized-guide-to-using-svg-icon-sprites-in-web-apps-215152b7718e#.7ek9fmbaq&#34;&gt;A pocket-sized guide to using SVG icon sprites in web apps by Ben Schwarz&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ポケット・ガイドの名前に相応しい分量のSVGアイコンスプライトの作り方ガイド。さっと読めるものの、経験に基づいたフローを紹介していて、実践にも移しやすいのでぜひ。&lt;/p&gt;
+
+&lt;h3 id=&#34;being-a-developer-after-40-by-free-code-camp-https-medium-freecodecamp-com-being-a-developer-after-40-3c5dd112210c-3aqplzahb:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.3aqplzahb&#34;&gt;Being A Developer After 40 by Free Code Camp&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;40才を超えてデベロッパでありつづけること。とても長い記事ながら、デベロッパとして現役を貫くために、今から始めるべきよい習慣などについて、説得力のある言葉で書かれている。&lt;/p&gt;
+
+&lt;h3 id=&#34;accessibility-matters-and-here-s-what-we-re-doing-about-it-by-vox-product-blog-http-product-voxmedia-com-2016-5-11-11612516-accessibility-matters-and-heres-what-were-doing-about-it:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;http://product.voxmedia.com/2016/5/11/11612516/accessibility-matters-and-heres-what-were-doing-about-it&#34;&gt;Accessibility matters—and here&amp;rsquo;s what we&amp;rsquo;re doing about it by Vox Product Blog&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Vox Mediaがエキスパートを招聘してアクセシビリティに関するガイドラインを作成するワークショップを実施。その結果としての4つのガイドラインも公開。すばらしい取り組み。&lt;/p&gt;
+
+&lt;h3 id=&#34;css-from-the-future-by-zeke-sikelianos-http-zeke-sikelianos-com-css-from-the-future:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;http://zeke.sikelianos.com/css-from-the-future/&#34;&gt;CSS from the Future by Zeke Sikelianos&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSにおける&amp;rdquo;変数&amp;rdquo;はそれなりにブラウザサポートが進んでいる。そして&amp;rdquo;Mixin&amp;rdquo;、&amp;rdquo;Extend&amp;rdquo;はまだまだこれからなものの、確実に実装へ進んでいる。今のところはまだPre/Post プロセッサに頼っているが、いつか来る日のためにも今のうちになれておきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;let-s-write-beautiful-css-comments-by-sparkbox-https-seesparkbox-com-foundry-lets-write-beautiful-css-comments:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://seesparkbox.com/foundry/lets_write_beautiful_css_comments&#34;&gt;Let&amp;rsquo;s Write Beautiful CSS Comments by Sparkbox&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;美しいCSSのコメントのあり方について。コードが十分にわかりやすければコメントを書く必要はないのかもしれない。しかし、CSSはなかなかそうもいかない。記事ではどんなタイミングでコメントを残すべきか、そしてどうフォーマットするかについて紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-implement-smooth-scrolling-in-vanilla-javascript-https-www-sitepoint-com-smooth-scrolling-vanilla-javascript:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://www.sitepoint.com/smooth-scrolling-vanilla-javascript/&#34;&gt;How to Implement Smooth Scrolling in Vanilla JavaScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;素のJavaScriptのアニメーションスクロールを実装する方法について。実装そのものも興味深いが、リファクタリングについても細かくステップが紹介されていて参考になる。機能に興味がなくても読んでおいて損はない。&lt;/p&gt;
+
+&lt;h2 id=&#34;videos:be840c32a568ef666060a88a8b70be9f&#34;&gt;Videos&lt;/h2&gt;
+
+&lt;h3 id=&#34;google-i-o-2016-https-www-youtube-com-playlist-list-plou2xlyxmsile6-egvdn3gyiodov3qnsc:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC&#34;&gt;Google I/O 2016&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Google I/O 2016 のセッション動画リスト。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:be840c32a568ef666060a88a8b70be9f&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:be840c32a568ef666060a88a8b70be9f&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:be840c32a568ef666060a88a8b70be9f&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.boldlisting.com/using-more-const-and-making-const-more-constant-af27645ec350#.5g8er2wsc&#34;&gt;&lt;strong&gt;Using more const and making const more constant by The Bold Blog&lt;/strong&gt;&lt;/a&gt;: ES2015で使用できるようになったconstについての解説と、便利な使用例をまとめたもの&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://snook.ca/archives/html_and_css/all-or-nothing&#34;&gt;&lt;strong&gt;All or Nothing by Snook.ca&lt;/strong&gt;&lt;/a&gt;: 全プロパティをリセットするのに便利なallプロパティについて。ブラウザ毎の振る舞いがまちまちなので役に立たないと結論づけているが、興味深い内容。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goldbergyoni.com/checklist-best-practices-of-node-js-error-handling/&#34;&gt;&lt;strong&gt;Checklist: Best Practices of Node.JS Error Handling by Yoni Goldberg&lt;/strong&gt;&lt;/a&gt;: Node.jsのエラーハンドリングのベストプラクティスをまとめたもの。StackOverflowや、有名ブログで書かれてるものが中心&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://labs.jensimmons.com/&#34;&gt;&lt;strong&gt;Layout Demos by Jen Simmons&lt;/strong&gt;&lt;/a&gt;: CSS GridやFlexboxなどを駆使した、紙のレイアウトにありそうなパターン達の実装集&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/tips-aligning-icons-text/&#34;&gt;&lt;strong&gt;Tips for Aligning Icons to Text by CSS-Tricks&lt;/strong&gt;&lt;/a&gt;: よく悩まされるアイコンとテキストの位置揃えについてのTips&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@boopathi/service-workers-gotchas-44bec65eab3f#.b65hda867&#34;&gt;&lt;strong&gt;Service Workers — Gotchas by Boopathi Rajaa&lt;/strong&gt;&lt;/a&gt;: Service Workerの理解を一歩進めるために&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://falkus.co/2016/04/the-tilde-css-selector-use-carefully/&#34;&gt;&lt;strong&gt;The tilde CSS selector, use carefully! by Falkus.co&lt;/strong&gt;&lt;/a&gt;: 間接セレクタを使う上での注意点について&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.70</title>
+      <link>https://frontendweekly.tokyo/backnumbers/70/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/70/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-70:c581d0db1e025bed1c018406e65d67a8&#34;&gt;Frontend Weekly Vol.70&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:c581d0db1e025bed1c018406e65d67a8&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;how-fast-should-your-ui-animations-be-by-val-head-http-valhead-com-2016-05-05-how-fast-should-your-ui-animations-be:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/&#34;&gt;How fast should your UI animations be? by Val Head&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;UIに関するアニメーションはどんな早さが最適なのか?&lt;br /&gt;
+もちろん答えは『時と場合による』ものの、Val Head氏は200msから500msの間が最適だとしている。記事ではその数字の根拠となり得るリサーチについても触れているのでぜひ。&lt;/p&gt;
+
+&lt;h3 id=&#34;truly-fluid-typography-with-vh-and-vw-units-by-smashing-magazine-https-www-smashingmagazine-com-2016-05-fluid-typography:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/05/fluid-typography/&#34;&gt;Truly Fluid Typography With vh And vw Units by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;レスポンシブなタイポグラフィーは紙のメディアにはなかったWebならではのパラダイム。単にブレークポイントでフォントサイズを変えるだけのようにも思えるが、実践ではそうはいかない。記事ではvhやvwという単位を使って、これまでの紙で得た知見を上手く再利用しながら流動性のあるメンテナンスしやすいタイポグラフィーについて紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;architecting-front-end-styles-https-robots-thoughtbot-com-architecting-front-end-styles:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;https://robots.thoughtbot.com/architecting-front-end-styles&#34;&gt;Architecting Front-end Styles&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;短い記事ではあるものの、CSSのアーキテクトについて実践的なアプローチを紹介。
+なかなか悩ましいコンポーネントの集合体(記事ではパターンと命名している)についても触れているし、それらをどう管理しているかについても紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;meaningful-css-style-like-you-mean-it-by-an-a-list-apart-http-alistapart-com-article-meaningful-css-style-like-you-mean-it:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;http://alistapart.com/article/meaningful-css-style-like-you-mean-it&#34;&gt;Meaningful CSS: Style Like You Mean It by An A List Apart&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;再利用しやすいCSSとセマンティックは相性が悪いと考えている人もいるだろう。この記事ではHTMLのセマンティックの中でもアクセシビリティに関わるセマンティック(ARIA)を活用した意味が伝わりやすいCSSのアーキテクトについて紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;refactoring-legacy-css-by-sparkbox-http-seesparkbox-com-foundry-refactoring-legacy-css:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;http://seesparkbox.com/foundry/refactoring_legacy_css&#34;&gt;Refactoring Legacy CSS by Sparkbox&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;テストしづらいCSSにおいてレガシーなシステムのリファクタリングは難しい。記事ではまず、リファクタリングを始めるタイミングについてから始まり、最終的なアウトプットをどのようなワークフローで行うべきかについても紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;tdd-should-be-fun-http-jrsinclair-com-articles-2016-tdd-should-be-fun:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;http://jrsinclair.com/articles/2016/tdd-should-be-fun/&#34;&gt;TDD Should be Fun&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;TDD(Test Driven Development)の注目点はテストではなく、テストから始めることによる抽象化のレベル調整にある。そんなTDDをやらなければならないものとして捉えるのではなく、楽しく実践するためのコツを紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;the-importance-of-important-forcing-immutability-in-css-by-css-wizardry-http-csswizardry-com-2016-05-the-importance-of-important:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;http://csswizardry.com/2016/05/the-importance-of-important/&#34;&gt;The Importance of !important: Forcing Immutability in CSS by CSS Wizardry&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSにおける!importantは基本的には使わない方向で落ち着き始めている。Harry Roberts氏はその見解に反対をするわけではないが、!importantが持つ力をImmutabilityを発揮させることに使うべきだとしている。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:c581d0db1e025bed1c018406e65d67a8&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:c581d0db1e025bed1c018406e65d67a8&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:c581d0db1e025bed1c018406e65d67a8&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cryto.net/~joepie91/blog/2016/05/11/what-is-promise-try-and-why-does-it-matter/&#34;&gt;&lt;strong&gt;What is Promise.try, and why does it matter? by joepie91&amp;rsquo;s Ramblings&lt;/strong&gt;&lt;/a&gt;: Promise.tryとはなにか。どんな風に便利なのか。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.com/lets-learn-javascript-closures-66feb44f6a44#.yi81tey6f&#34;&gt;&lt;strong&gt;Let’s Learn JavaScript Closures by Free Code Camp&lt;/strong&gt;&lt;/a&gt;: 図解でわかりやすいJavaScriptにおけるClosures。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/images-in-postcss/&#34;&gt;&lt;strong&gt;Working with Images in Stylesheets with PostCSS by CSS-Tricks&lt;/strong&gt;&lt;/a&gt;: PostCSSを使った画像関連のワークフロー。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gauntface.com/blog/2016/05/01/push-debugging-analytics&#34;&gt;&lt;strong&gt;Push Debugging &amp;amp; Analytics by Matt Gaunt&lt;/strong&gt;&lt;/a&gt;: Push通知のデバッグと解析方法について。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uxplanet.org/pagination-best-practices-76fbd3f5a78d#.r03x4nok8&#34;&gt;&lt;strong&gt;Pagination Best Practices by UX Planet&lt;/strong&gt;&lt;/a&gt;: パージネーションにおけるベストプラクティス。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/04/tools-and-resources-for-editing-converting-and-optimizing-svgs/&#34;&gt;&lt;strong&gt;Tools And Resources For Editing, Converting And Optimizing SVGs by Smashing Magazine&lt;/strong&gt;&lt;/a&gt;: SVGの編集、変換、最適化のツールについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/liriliri/eruda&#34;&gt;&lt;strong&gt;liriliri/eruda: Console for Mobile Browsers&lt;/strong&gt;&lt;/a&gt;: モバイルウェブ開発用の開発者ツール。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.69</title>
+      <link>https://frontendweekly.tokyo/backnumbers/69/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/69/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-69:c96ff45791344da9f877cc513c22bc7f&#34;&gt;Frontend Weekly Vol.69&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:c96ff45791344da9f877cc513c22bc7f&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;service-workers-and-pwas-it-s-about-reliable-performance-not-offline-by-infrequently-noted-https-infrequently-org-2016-05-service-workers-and-pwas-its-about-reliable-performance-not-offline:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://infrequently.org/2016/05/service-workers-and-pwas-its-about-reliable-performance-not-offline/&#34;&gt;Service Workers and PWAs: It’s About Reliable Performance, Not “Offline” by Infrequently Noted&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Service WorkersとProgressive Web App。Webがアプリライクになる上で大切な体験はオフラインではなく、パフォーマンスが一定であること。単にブックマークするのとは異なる『Add-to-Homescreen』の仕様に込められた哲学とは。&lt;/p&gt;
+
+&lt;h3 id=&#34;reducing-jpg-file-size-by-colt-mcanlis-https-medium-com-duhroach-reducing-jpg-file-size-e5b27df3257c-ni2jvh81b:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://medium.com/@duhroach/reducing-jpg-file-size-e5b27df3257c#.ni2jvh81b&#34;&gt;Reducing JPG File size by Colt McAnlis&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ウェブページにおいて画像は非常に重たいリソースだ。パフォーマンス改善において、『1枚の画像を削除する』ことのインパクトはかなり大きいが、なかなか現実的ではないことが多い。この記事ではその画像の中でも最適化の難しいJPGファイルの最適化について、かなり詳細まで解説してくれている。&lt;/p&gt;
+
+&lt;h3 id=&#34;design-debugging-https-bjango-com-articles-designdebugging:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://bjango.com/articles/designdebugging/&#34;&gt;Design debugging&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;エンジニアには大抵はデバッグしているというモードがある。ではデザイナにはそんなモードがあるだろうか? この記事ではデザイナにもデバッグフローを導入する低減と、具体的なステップについて紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;turbocharged-javascript-refactoring-with-codemods-by-airbnb-engineering-data-science-https-medium-com-airbnb-engineering-turbocharged-javascript-refactoring-with-codemods-b0cae8b326b9-xoxk4p199:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://medium.com/airbnb-engineering/turbocharged-javascript-refactoring-with-codemods-b0cae8b326b9#.xoxk4p199&#34;&gt;Turbocharged JavaScript refactoring with codemods by Airbnb Engineering &amp;amp; Data Science&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;リファクタリングを自動化できたらいいのに、と思ったことがない人を探す方が難しいだろう。Facebookがリリースしたcodemodsというツールを使ってJavaScriptのリファクタリングの自動化について紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;caching-best-practices-max-age-gotchas-by-jakearchibald-com-https-jakearchibald-com-2016-caching-best-practices:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://jakearchibald.com/2016/caching-best-practices/&#34;&gt;Caching best practices &amp;amp; max-age gotchas by JakeArchibald.com&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;パフォーマンスとキャッシュは切っても切れない関係。どんなタイプのコンテンツにどんなキャッシュ戦略が最適なのか。Jake Archibald氏による解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements-by-smashing-magazine-https-www-smashingmagazine-com-2016-05-an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/&#34;&gt;An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSの擬似クラスと擬似要素についての網羅的な解説。マイナーなものや実験的なものまで、かなり濃い内容になっている。リファレンスとしてもチェックしておきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;five-key-mindsets-that-separate-successful-programmers-from-everyone-else-http-www-theeffectiveengineer-com-blog-five-key-skills-of-successful-programmers:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;http://www.theeffectiveengineer.com/blog/five-key-skills-of-successful-programmers&#34;&gt;Five Key Mindsets that Separate Successful Programmers from Everyone Else&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;エンジニアとして成功するためにはどんな意識が必要だろうか? この記事では、5つの重要なマインドセットについて紹介している。奥が深い5つで、共感できる。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:c96ff45791344da9f877cc513c22bc7f&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:c96ff45791344da9f877cc513c22bc7f&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:c96ff45791344da9f877cc513c22bc7f&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1#.h1gr6bj9s&#34;&gt;&lt;strong&gt;UX: Infinite Scrolling vs. Pagination by UX Planet&lt;/strong&gt;&lt;/a&gt;: 無限スクロールとページングのどちらを選ぶかはとても悩ましい。それぞれのメリット、デメリットについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.com/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86#.gnry38l5o&#34;&gt;&lt;strong&gt;5 Mistakes to Avoid When Designing Micro-interactions by Free Code Camp&lt;/strong&gt;&lt;/a&gt;: マイクロ・インタラクションをデザインする上で避けるべき5つの失敗。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/straker/css-style-guide-audit&#34;&gt;&lt;strong&gt;css-style-guide-audit: Audit the CSS on a page to see what elements are using styles from the style guide and which styles are overriding them&lt;/strong&gt;&lt;/a&gt;: ページ上の要素がどのスタイルガイドで定義されたスタイルをりようしているか、あるいは上書きしているかを視認するツール。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloudinary.com/blog/why_jpeg_is_like_a_photocopier&#34;&gt;&lt;strong&gt;Why JPEG is like a photocopier (generation loss) by Cloudinary Blog&lt;/strong&gt;&lt;/a&gt;: JPGはなぜ保存すると画質が下がるのか?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://robots.thoughtbot.com/testing-your-style-with-eslint-and-mocha&#34;&gt;&lt;strong&gt;Testing Your Style With ESLint and Mocha&lt;/strong&gt;&lt;/a&gt;:  ESLintをMochaのテストと連携する方法。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://remysharp.com/2016/05/02/faster-tests-for-multi-node-code-with-es6-and-babel&#34;&gt;&lt;strong&gt;Faster tests for multi-node code with ES6 and babel&lt;/strong&gt;&lt;/a&gt;: ES6とBabelの環境で手元でもCIでもテストできるようにする方法について。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://codepen.io/kevinSuttle/post/the-current-state-of-web-forms&#34;&gt;&lt;strong&gt;The current state of web forms by Kevin Suttle on CodePen&lt;/strong&gt;&lt;/a&gt;: 最近のWebフォーム事情。ブラウザネイティブの実装ではまだまだ不十分。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.68</title>
+      <link>https://frontendweekly.tokyo/backnumbers/68/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/68/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-68:d7813eb3a1f799a736e28350df85a129&#34;&gt;Frontend Weekly Vol.68&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:d7813eb3a1f799a736e28350df85a129&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;buttons-in-design-systems-by-eightshapes-llc-https-medium-com-eightshapes-llc-buttons-in-design-systems-eac3acf7e23-rt0qfupgq:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;https://medium.com/eightshapes-llc/buttons-in-design-systems-eac3acf7e23#.rt0qfupgq&#34;&gt;Buttons in Design Systems by EightShapes LLC&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;デザインシステムを構築する上で欠かせないコンポーネントのひとつであるボタン。非常にシンプルなコンポーネントであるが、そのパターンの展開や用途を考慮すると深く考えることが多い。デザインシステムを考える上での大きなヒントになる。&lt;/p&gt;
+
+&lt;h3 id=&#34;progressive-web-apps-with-service-workers-http-blog-booking-com-progressive-web-apps-with-service-workers-html:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;http://blog.booking.com/progressive-web-apps-with-service-workers.html&#34;&gt;Progressive Web Apps with Service Workers&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Booking.comにおけるProgressive Web Appのケース・スタディ。この半年ほどよく聞くようになったProgressive Web Appは最近ではケース・スタディが増えてきている。これから始める人におすすめ。&lt;/p&gt;
+
+&lt;h3 id=&#34;ooux-a-foundation-for-interaction-design-by-an-a-list-apart-http-alistapart-com-article-ooux-a-foundation-for-interaction-design:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;http://alistapart.com/article/ooux-a-foundation-for-interaction-design&#34;&gt;OOUX: A Foundation for Interaction Design by An A List Apart&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;UXをオブジェクト指向で捉える&lt;a href=&#34;http://alistapart.com/article/object-oriented-ux&#34;&gt;OOUXと言うべきアプローチ&lt;/a&gt;を起点にし、この記事ではそのオブジェクトとインタラクションをどのようにつなげていくべきかについて詳細を解説している。思考が難しいトピックなだけによく知られるオブジェクト指向を持ち込んで整理するのはわかりやすい。&lt;/p&gt;
+
+&lt;h3 id=&#34;the-way-we-build-by-airbnb-design-http-airbnb-design-the-way-we-build:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;http://airbnb.design/the-way-we-build/&#34;&gt;The Way We Build by Airbnb Design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;デザイン・スタートアップとしても名を知られるAirbnbが、その名に甘んじることなく、さらなる高みへ向かう過程について紹介。Airbnbではデザインとどう向き合っているのか。デザイン・ランゲージを作成し、システムに生きるデザインを生み出すケーススタディ。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-use-bem-methodology-by-toptal-https-www-toptal-com-css-introduction-to-bem-methodology:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;https://www.toptal.com/css/introduction-to-bem-methodology&#34;&gt;How to Use BEM Methodology by Toptal&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;BEMのアプローチについて、よく取り上げられる命名についての話に限らず、ファイルストラクチャや、Sassをつかった工夫までを細かく解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;all-you-need-to-know-about-web-rendering-by-ilya-pestov-https-medium-com-ipestov-all-you-need-to-know-about-web-rendering-c5e27cc77ecb-6222xvemk:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;https://medium.com/@ipestov/all-you-need-to-know-about-web-rendering-c5e27cc77ecb#.6222xvemk&#34;&gt;All You Need to Know About Web Rendering by Ilya Pestov&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;リペイントやリフローなどレンダリング・パフォーマンスにおいて欠かす事ができない前提知識について詳しく解説。実践主義に基づいたパフォーマンス最適化についてのアドバイスも秀逸。&lt;/p&gt;
+
+&lt;h3 id=&#34;developing-ui-http-mrmrs-io-writing-2016-04-21-developing-ui:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;http://mrmrs.io/writing/2016/04/21/developing-ui/&#34;&gt;Developing UI&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;UIを開発する上で避けることのできない影響範囲の見えづらさと、激しい変化との戦いについて。意見もアドバイスでもなく、真摯にUIを開発しているAdam Morse氏の心情に共感できる。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides-videos:d7813eb3a1f799a736e28350df85a129&#34;&gt;Slides/Videos&lt;/h2&gt;
+
+&lt;h3 id=&#34;front-end-performance-the-dark-side-by-dev-opera-https-dev-opera-com-blog-timing-attacks:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;https://dev.opera.com/blog/timing-attacks/&#34;&gt;Front-End Performance: The Dark Side by Dev.Opera&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://fronteers.nl/congres/2016-spring&#34;&gt;Fronteers Spring Conference&lt;/a&gt;でのMathias Bynens氏による Front-End Performance: The Dark Side のスライドとセッション動画。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:d7813eb3a1f799a736e28350df85a129&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:d7813eb3a1f799a736e28350df85a129&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:d7813eb3a1f799a736e28350df85a129&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://maintainablecss.com/&#34;&gt;&lt;strong&gt;MaintainableCSS - an approach to writing modular, scalable and maintainable CSS by Adam Silver&lt;/strong&gt;&lt;/a&gt;: 近年取り上げられている&amp;rdquo;メンテナブルなCSS&amp;rdquo;について簡潔にまとめられている。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/perflint/perflint&#34;&gt;&lt;strong&gt;perflint/perflint: Perflint is a tool to identify unexpected performance levels of a Website&lt;/strong&gt;&lt;/a&gt;: eslintやstylelintのようにパフォーマンスをLintするコマンドラインツール。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rationalconspiracy.com/2016/04/24/dark-patterns-by-the-boston-globe/&#34;&gt;&lt;strong&gt;Dark Patterns by the Boston Globe by The Rationalist Conspiracy&lt;/strong&gt;&lt;/a&gt;: Boston Globeのオンライン版における『ダーク・パターン』。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yosuke-furukawa.hatenablog.com/entry/2016/04/27/110027&#34;&gt;&lt;strong&gt;Node.js v6.0 (Current) がリリースされました。 by from scratch&lt;/strong&gt;&lt;/a&gt;: Node.js v6.0のリリースについて。ES2015のfeature supportが96%になっている他、各種変更点など。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://staltz.com/why-we-built-xstream.html&#34;&gt;&lt;strong&gt;Why we built xstream by André Staltz&lt;/strong&gt;&lt;/a&gt;: Cycle.js用に作成したstreamライブラリxstreamの誕生秘話。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.67</title>
+      <link>https://frontendweekly.tokyo/backnumbers/67/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/67/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-67:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;Frontend Weekly Vol.67&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;css-apply-rule-native-css-mixins-https-blog-gospodarets-com-css-apply-rule:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;https://blog.gospodarets.com/css_apply_rule&#34;&gt;CSS @apply rule (native CSS mixins)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSにおけるMixinsである@applyについての詳しい解説。どうやって定義するのかなどの基本から、実際に活用できる@apply例やブラウザサポートなどについても触れられているので、リファレンスとしても利用できそう。&lt;/p&gt;
+
+&lt;h3 id=&#34;flexbox-patterns-http-www-flexboxpatterns-com-home:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;http://www.flexboxpatterns.com/home&#34;&gt;Flexbox Patterns&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Flexboxを活用した様々なUIパターンをソースコード付きで紹介。よく見かけるUIが揃っているので、インスピレーションにも、実装の参考にもなるので、ぜひ。&lt;/p&gt;
+
+&lt;h3 id=&#34;javascript-s-new-intersectionobserver-https-medium-com-amcdnl-javascript-s-new-intersectionobserver-cdce8a73bef8-913yryfpl:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;https://medium.com/@amcdnl/javascript-s-new-intersectionobserver-cdce8a73bef8#.913yryfpl&#34;&gt;JavaScript’s new IntersectionObserver&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;新たに提案されているJavaScriptのAPI、IntersectionObserverがChromiumにて実装されたので、早速実働するスニペット付きの解説。画像のLazyloadなどを行う際に、ユーザがページのどこにいて、対応する要素がどこにいるのか、というような用途でも利用できる。&lt;/p&gt;
+
+&lt;h3 id=&#34;compassionate-ux-by-ux-booth-http-www-uxbooth-com-articles-compassionate-ux:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;http://www.uxbooth.com/articles/compassionate-ux/&#34;&gt;Compassionate UX by UX Booth&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;思いやりは、UXにおいて最も重要なファクターだと言っても言い過ぎではないだろう。ではどう思いやるのか、どういった例があるのか。
+Eric Mayer氏と、Sara Wachter-Boettcher氏によるUXの根源にある大切な部分についての解説。実例も交えての解説は非常に参考になる。&lt;/p&gt;
+
+&lt;h3 id=&#34;writing-good-code-how-to-reduce-the-cognitive-load-of-your-code-by-christian-m-mackeprang-http-chrismm-com-blog-how-to-reduce-the-cognitive-load-of-your-code:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;http://chrismm.com/blog/how-to-reduce-the-cognitive-load-of-your-code/&#34;&gt;Writing good code: how to reduce the cognitive load of your code by Christian M. Mackeprang&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;『よいコード』を書くことは、隣で働いている同僚のためだけではなく、将来の自分、そして書いた本人に合ったこともないような人のためにも重要だ。クレバーなコードではなく、スマートにコードを書くために気をつけるべきポイントについて。テクニカルな面よりは、心がけより。&lt;/p&gt;
+
+&lt;h3 id=&#34;a-guide-to-proper-error-handling-in-javascript-http-www-sitepoint-com-proper-error-handling-javascript:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;http://www.sitepoint.com/proper-error-handling-javascript/&#34;&gt;A Guide to Proper Error Handling in JavaScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;JavaScriptにおける頭痛のタネ、エラー処理。なぜエラー処理が日々の業務の中でも重要なのか、そして正しいエラー処理を行うためにはどんな所に気をつけなければならないのか。
+非常にシンプルにわかりやすく解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;get-ready-for-the-great-rebundling-of-mobile-by-inside-intercom-https-blog-intercom-io-the-great-mobile-rebundling:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;https://blog.intercom.io/the-great-mobile-rebundling/&#34;&gt;Get ready for the great rebundling of mobile by Inside Intercom&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;モバイルアプリにおけるアプリの細分化が加速している。Facebookのメッセンジャーアプリがその好例。このトレンドはどうして起こっているのか。リーチはWebへ、深度はアプリへの第一歩ともなりえる事例で、非常に興味深い。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:36badfa4fc7aa958e28b3aa3d71e448a&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.5kh6niq2e&#34;&gt;&lt;strong&gt;Color in Design Systems by EightShapes LLC&lt;/strong&gt;&lt;/a&gt;: デザインシステムにおける色について。理にかなったカラースキーム。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.webdesignerdepot.com/2016/04/the-beginners-guide-to-ux-prototyping/&#34;&gt;&lt;strong&gt;The beginner’s guide to UX prototyping by Webdesigner Depot&lt;/strong&gt;&lt;/a&gt;: 初心者向けプロトタイピングについて。これから始める人に。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pseudocorta.blogspot.jp/2014/05/monads-promises-arrays-in-javascript.html&#34;&gt;&lt;strong&gt;pseudocorta: Monads, promises, arrays in Javascript&lt;/strong&gt;&lt;/a&gt;: JavaScriptにおけるMonads、Promises、Arrayについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k94n.com/es6-modules-single-instance-pattern&#34;&gt;&lt;strong&gt;ES6 Modules - Single Instance Pattern&lt;/strong&gt;&lt;/a&gt;: ES6モジュールにおけるシングル・インスタンスパターンについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/04/stop-installing-your-webdev-environment-locally-with-docker/&#34;&gt;&lt;strong&gt;Why You Should Stop Installing Your WebDev Environment Locally by Smashing Magazine&lt;/strong&gt;&lt;/a&gt;: Dockerを使ったローカルマシンに環境を構築しなくても済む方法の紹介。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.66</title>
+      <link>https://frontendweekly.tokyo/backnumbers/66/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/66/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-66:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;Frontend Weekly Vol.66&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-faster-ft-com-by-engine-room-http-engineroom-ft-com-2016-04-04-a-faster-ft-com:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;http://engineroom.ft.com/2016/04/04/a-faster-ft-com/&#34;&gt;A faster FT.com by Engine Room&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Financial Timesで進められているリニューアルプロジェクトにて、ページの読み込み速度がユーザーにどのような影響を与えるのか実際にテストを行った。こういった実際のテスト結果を目の当たりにできるのは非常にありがたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;review-your-code-by-rafael-pinheiro-https-medium-com-rbpinheiro-review-your-code-6e43da2f4aba-t5iv5d9s1:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://medium.com/@rbpinheiro/review-your-code-6e43da2f4aba#.t5iv5d9s1&#34;&gt;Review your code by Rafael Pinheiro&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;コードレビューのプロセスがあることはもちろん大切だが、自分が書いたモノを自分でレビューすること、そしてリファクタリングすることはもっと大切。実際のリファクタリングのプロセスも詳細で参考になる。&lt;/p&gt;
+
+&lt;h3 id=&#34;css-custom-properties-native-variables-in-depth-https-blog-gospodarets-com-css-properties-in-depth:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://blog.gospodarets.com/css_properties_in_depth&#34;&gt;CSS custom properties (native variables) In-Depth&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSS custom properties (CSSの変数)について、非常に詳細にわたる解説。CSSプリプロセッサにおける変数とシンタックス以外にも差異があるので、基本をしっかり押さえておきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;a-complete-guide-to-grid-by-css-tricks-https-css-tricks-com-snippets-css-complete-guide-grid:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://css-tricks.com/snippets/css/complete-guide-grid/&#34;&gt;A Complete Guide to Grid by CSS-Tricks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSS Grid Layoutはまだプロダクションで利用できるレベルのブラウザサポート状況ではないものの、flexboxを超える自由度の高い、本当の意味でのグリッドを形成するスタイルシートにおける重要な試金石。そのCSS Grid Layoutについて詳しく解説。&lt;/p&gt;
+
+&lt;h3 id=&#34;building-a-lever-by-signal-v-noise-https-m-signalvnoise-com-building-a-lever-7607ea9a7aee-rk41vp7yh:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://m.signalvnoise.com/building-a-lever-7607ea9a7aee#.rk41vp7yh&#34;&gt;Building a lever by Signal v. Noise&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;規模の大小で違いはあれど、自分がやりたいことをやるのはなかなか難しいもの。そんな際にはどういう戦略でその理想に近づいていくべきなのか。テコの原理を上手く使って、理想への一歩を踏み出すべき。&lt;/p&gt;
+
+&lt;h3 id=&#34;webpack-the-confusing-parts-by-rajaraodv-https-medium-com-rajaraodv-webpack-the-confusing-parts-58712f8fcad9-k899yvjo2:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.k899yvjo2&#34;&gt;Webpack — The Confusing Parts by rajaraodv&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;便利さと複雑さは表裏一体。Webpackはまさにその言葉を証明するかのような存在。この記事ではそのWebpackの複雑な部分を詳しく解説してくれている。基本から応用までカバーしてあるので、迷ったら見かえせるリファレンスとしても活用できそう。&lt;/p&gt;
+
+&lt;h3 id=&#34;building-the-ui-for-the-new-the-times-website-by-the-startup-https-medium-com-swlh-building-the-ui-for-the-new-the-times-website-26dc4e6569e-brk1i17ow:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://medium.com/swlh/building-the-ui-for-the-new-the-times-website-26dc4e6569e#.brk1i17ow&#34;&gt;Building the UI for the new The Times website by The Startup&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The Times誌のリニューアルプロジェクトについてのまとめ。単純な技術やデザインのふり返りに止まらず、コラボレーションやQAについてまで触れていている。リニューアルではなくても参考にできる部分は多いのでぜひ。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:9a2721a3bfd82e28964c755eb3e52ee2&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox&#34;&gt;&lt;strong&gt;Almost complete guide to flexbox (without flexbox) by Kenan Yusuf&lt;/strong&gt;&lt;/a&gt;: &lt;code&gt;display: flex&lt;/code&gt;を使わずにFlexbox同等のレイアウトをする方法のまとめ。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.scrunch.com/blog/creating-an-animated-svg-spinner/&#34;&gt;&lt;strong&gt;Creating an animated SVG spinner by scrunch&lt;/strong&gt;&lt;/a&gt;: SVGをアニメーションさせて作成する&amp;rdquo;スピナー&amp;rdquo;。SVGアニメーションのとっかかりにぜひ。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bradfrost.com/blog/post/clarity-conf-baking-accessibility-in/&#34;&gt;&lt;strong&gt;Clarity Conf: Baking Accessibility In by Brad Frost&lt;/strong&gt;&lt;/a&gt;: 先日サンフランシスコにて開催されたスタイルガイドとデザインシステムについてのカンファレンスにおけるDropboxのアクセシビリティ担当である Cordelia McGee-Tubb氏の発表をBrad Frost氏がまとめた。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ampbyexample.com/&#34;&gt;&lt;strong&gt;AMP by Example&lt;/strong&gt;&lt;/a&gt;: AMPを実際の例とコードとともに学ぶためのリソース。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jakearchibald.com/2016/streaming-template-literals/&#34;&gt;&lt;strong&gt;Streaming template literals by JakeArchibald.com&lt;/strong&gt;&lt;/a&gt;: ES6のtemplate literalsはstreamingできるのか? Jake Archibald氏からの回答。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://m.signalvnoise.com/transforming-a-screen-with-a-few-questions-6be6f8251b3f#.awuskgnbb&#34;&gt;&lt;strong&gt;Transforming a screen with a few questions by Signal v. Noise&lt;/strong&gt;&lt;/a&gt;: ある1画面のデザインを変えるプロセス。正しい疑問を持つことが大事。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.65</title>
+      <link>https://frontendweekly.tokyo/backnumbers/65/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/65/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-65:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;Frontend Weekly Vol.65&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-debugging-thought-process-https-remysharp-com-2016-04-04-a-debugging-thought-process:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;https://remysharp.com/2016/04/04/a-debugging-thought-process&#34;&gt;A debugging thought process&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;エンジニアリングとデバッグはどうしても切り離すことはできない関係。デバッグがやたら上手なエンジニアは仕事のできるエンジニアでもある。Remy Sharp氏がどうやってデバッグをするのか。彼の頭の中にある考えを丁寧に解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;are-you-single-by-snook-ca-http-snook-ca-archives-html-and-css-are-you-single:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;http://snook.ca/archives/html_and_css/are-you-single&#34;&gt;Are you Single? by Snook.ca&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jonathan Snooks氏による、CSSにおける単一責任の原則について、SMACSSのアプローチから詳しく解説。OOPにおいて大切な原則なので、様々な意見やアプローチを知ることは大切。&lt;/p&gt;
+
+&lt;h3 id=&#34;on-ads-and-ad-blocking-by-andrew-betts-https-trib-tv-2016-03-29-on-ads-and-ad-blocking:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;https://trib.tv/2016/03/29/on-ads-and-ad-blocking/&#34;&gt;On ads and ad blocking by Andrew Betts&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ADブロッカーの存在を否定することはもうできない。しかし、広告収入によってWebの大きな部分がまかなわれているのは事実。Andrew Betts氏は新しい仕様である&lt;a href=&#34;https://github.com/WICG/IntersectionObserver/blob/gh-pages/explainer.md&#34;&gt;Intersection Observer&lt;/a&gt;などを使って、広告主とブラウザ、仕様が一緒になって考えるべき問題であると提唱している。&lt;/p&gt;
+
+&lt;h3 id=&#34;unicorns-don-t-exist-generalists-do-by-inside-intercom-https-blog-intercom-io-unicorns-dont-exist-generalists-do:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;https://blog.intercom.io/unicorns-dont-exist-generalists-do/&#34;&gt;Unicorns don&amp;rsquo;t exist. Generalists do. by Inside Intercom&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;デザインもできて、フロントエンドも、サーバサイドもできる。もしかしたらインフラも得意かもしれない。そんなユニコーンは存在しないものの、それぞれのスタックに対して知識の幅を広げていくジェネラリストは存在する。職域の壁は緩やかにしておくべき。&lt;/p&gt;
+
+&lt;h3 id=&#34;progressive-web-apps-by-benjamin-farrell-http-www-benfarrell-com-2016-02-26-progressive-web-apps:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;http://www.benfarrell.com/2016/02/26/progressive-web-apps/&#34;&gt;Progressive Web Apps by Benjamin Farrell&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Progressive Web AppsがモバイルWebにおける試金石となりえるか。どんな問題を解決しようとしているのか。期待を込めてどう未来を変えていくかについて熱く語っている。&lt;/p&gt;
+
+&lt;h3 id=&#34;i-m-a-boring-programmer-and-proud-of-it-by-signal-v-noise-https-m-signalvnoise-com-i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe-blutardl9:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;https://m.signalvnoise.com/i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe#.blutardl9&#34;&gt;I’m a boring programmer (and proud of it) by Signal v. Noise&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;スーパーでスペシャルなプログラマである必然性はない。真摯に問題に対して向き合う『退屈な』プログラマであることを誇りに思うべき。Basecamp社というスペシャルなプログラマが集まっていそうな会社で働いている方だけに説得力がある。&lt;/p&gt;
+
+&lt;h3 id=&#34;what-every-ux-designer-needs-to-know-about-negotiating-by-creative-cloud-blog-by-adobe-http-blogs-adobe-com-creativecloud-what-every-ux-designer-needs-to-know-about-negotiating:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;http://blogs.adobe.com/creativecloud/what-every-ux-designer-needs-to-know-about-negotiating/&#34;&gt;What Every UX Designer Needs to Know About Negotiating by Creative Cloud blog by Adobe&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;デザインに限った話ではないものの、ステークスホルダーを『説得』する機会は特にUXやデザインに関わっている人には多いだろう。この記事では、どうやって説得するべきなのかについて5つを紹介。とても当たり前の話だが、とても大事。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:241ff7fad8ed4753e67a4eaf5c1172c6&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paciellogroup.com/blog/2016/04/custom-element-semantics/&#34;&gt;&lt;strong&gt;Custom Element Semantics by The Paciello Group&lt;/strong&gt;&lt;/a&gt;: カスタムエレメントのセマンティックスについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://justmarkup.com/log/2016/04/css-containment/&#34;&gt;&lt;strong&gt;CSS containment by justmarkup&lt;/strong&gt;&lt;/a&gt;: &lt;a href=&#34;https://drafts.csswg.org/css-containment-3/&#34;&gt;CSS containment&lt;/a&gt;のユースケース。便利。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/annotating-critical-css/&#34;&gt;&lt;strong&gt;Annotating Your (Critical) CSS by CSS-Tricks&lt;/strong&gt;&lt;/a&gt;: Critical CSSをコメントを使って抽出する方法について。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/css-modules-part-1-need/&#34;&gt;&lt;strong&gt;What are CSS Modules and why do we need them? by CSS-Tricks&lt;/strong&gt;&lt;/a&gt;: CSS Modulesとはなにか。どんな問題を解決しているのか。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://code.flickr.net/2016/04/05/our-justified-layout-goes-open-source/&#34;&gt;&lt;strong&gt;Our Justified Layout Goes Open Source by code.flickr.com&lt;/strong&gt;&lt;/a&gt;: Flickrが画像レイアウトのライブラリをオープンソース化した。&lt;a href=&#34;http://code.flickr.net/2015/03/24/much-photos/&#34;&gt;アルゴリズムを解説している記事&lt;/a&gt;も読んでおきたい。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmovement.com/content/why-your-gray-text-should-never-exceed-46-brightness/&#34;&gt;&lt;strong&gt;Why Your Gray Text Should Never Exceed 46% Brightness by UX Movement&lt;/strong&gt;&lt;/a&gt;: 明度を落としたグレーのテキストは暗くしすぎてはいけない。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.64</title>
+      <link>https://frontendweekly.tokyo/backnumbers/64/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/64/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-64:9bc994a714a45de69e4c3ae414699bce&#34;&gt;Frontend Weekly Vol.64&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:9bc994a714a45de69e4c3ae414699bce&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;why-i-don-t-use-css-preprocessors-by-456-berea-street-http-www-456bereastreet-com-archive-201603-why-i-dont-use-css-preprocessors:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;http://www.456bereastreet.com/archive/201603/why_i_dont_use_css_preprocessors/&#34;&gt;Why I don’t use CSS preprocessors by 456 Berea Street&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSプリプロセッサがデファクトとなった今でこそ、あえて問いたい、CSSプリプロセッサを使わない理由。Roger Johansson氏の意見に共感できるかはさておき、改めて見直してみるきっかけになるかも。&lt;/p&gt;
+
+&lt;h3 id=&#34;amp-and-the-sandbox-policy-by-the-sea-of-ideas-https-paulbakaus-com-2016-03-28-amp-and-the-sandbox-policy:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;https://paulbakaus.com/2016/03/28/amp-and-the-sandbox-policy/&#34;&gt;AMP and the Sandbox Policy by The Sea of Ideas&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;AMPが投げかけたWebとパフォーマンスに関する質問が、Content Performance Policyへと昇華しようとする動きの中、CPPの中核を担うSandbox Policyの非公式な仕様のアイデアがまとまりつつある。中々興味深い。&lt;/p&gt;
+
+&lt;h3 id=&#34;css-and-scalability-http-mrmrs-io-writing-2016-03-24-scalable-css:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;http://mrmrs.io/writing/2016/03/24/scalable-css/&#34;&gt;CSS and Scalability&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSをスケールさせるために必要なこと。記事ではこれまでのCSSアーキテクチャにまつわる歴史のハイライトとスケーラビリティを加速する大切なアドバイス、考え方について触れている。&lt;/p&gt;
+
+&lt;h3 id=&#34;a-b-tests-that-do-more-than-validate-by-inside-intercom-https-blog-intercom-io-why-ab-tests-should-yield-more-than-results:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;https://blog.intercom.io/why-ab-tests-should-yield-more-than-results/&#34;&gt;A/B Tests That Do More Than Validate by Inside Intercom&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A/Bテストがはらんでいる問題点。大切なことは統計学の知識ではなく、何をテストしようとしているのかをきちんと決めること。AとBを比較することそのものには何の意味も無い。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-work-with-svg-icons-http-fvsch-com-code-svg-icons-how-to:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;http://fvsch.com/code/svg-icons/how-to/&#34;&gt;How to work with SVG icons&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;アイコンフォントからSVGアイコンへと少しずつながらプロダクション環境下でも移行が始まってきている。この記事は、では現実的にどうやって運用するのかについてのケーススタディを紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;px-em-or-rem-media-queries-by-zell-liew-s-blog-about-web-design-and-development-http-zellwk-com-blog-media-query-units:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;http://zellwk.com/blog/media-query-units/&#34;&gt;PX, EM or REM Media Queries? by Zell Liew&amp;rsquo;s blog about web design and development&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;メディア・クエリを書く上で、pxで指定するべきかのか、emか、はたまたremか。ブラウザの実装の差異を踏まえながら、作者はemがベストと判定。その判定理由もきちんと理解しておきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;leveling-up-with-react-redux-by-css-tricks-https-css-tricks-com-learning-react-redux:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;https://css-tricks.com/learning-react-redux/&#34;&gt;Leveling Up with React: Redux by CSS-Tricks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Brad Westfall氏によるReact.jsについて学ぶ3部作の最終記事。 お待ちかねのreduxについて。さすがにシリーズの中でも最も長く詳細にわたる解説となっている。いつものようにコード例を見ながら丁寧に解説しているので、参考になる。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:9bc994a714a45de69e4c3ae414699bce&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:9bc994a714a45de69e4c3ae414699bce&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:9bc994a714a45de69e4c3ae414699bce&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@UXAliveTurkey/ux-visualization-examples-tips-950fcb5d2ebe#.ovssxj1rt&#34;&gt;&lt;strong&gt;UX Visualization Examples &amp;amp; Tips by UX Alive&lt;/strong&gt;&lt;/a&gt;: UXを可視化するのに利用するツールたち。ユーザも、体験も可視化しずらいものだからこその数。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3.org/WAI/WCAG20/quickref/&#34;&gt;&lt;strong&gt;How to Meet WCAG 2.0&lt;/strong&gt;&lt;/a&gt;: W3CによるWCAG2.0にどう対応するのかについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://auth0.com/blog/2016/03/23/intro-to-immutable-js/&#34;&gt;&lt;strong&gt;Introduction to Immutable.js and Functional Programming Concepts&lt;/strong&gt;&lt;/a&gt;: immutable.jsの紹介と関数型プログラミングのコンセプトについて。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.evojam.com/2016/03/21/practical-intro-to-monads-in-javascript-either/&#34;&gt;&lt;strong&gt;Practical Intro to Monads in JavaScript: Either by Evojam Technology Blog&lt;/strong&gt;&lt;/a&gt;: JavaScriptでMonadシリーズ第二弾。either。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/lets-learn-es2015/&#34;&gt;&lt;strong&gt;Let&amp;rsquo;s Learn ES2015 by CSS-Tricks&lt;/strong&gt;&lt;/a&gt;: ES6(ES2015)についてのオーバービュー。後発だけあってよくまとまっている。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.63</title>
+      <link>https://frontendweekly.tokyo/backnumbers/63/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/63/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-63:db6710c816daa161bc480a4d3fb3b232&#34;&gt;Frontend Weekly Vol.63&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:db6710c816daa161bc480a4d3fb3b232&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;houdini-maybe-the-most-exciting-development-in-css-you-ve-never-heard-of-by-smashing-magazine-https-www-smashingmagazine-com-2016-03-houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/&#34;&gt;Houdini: Maybe The Most Exciting Development In CSS You&amp;rsquo;ve Never Heard Of by Smashing Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CSSの新しい機能を使うには常にブラウザの互換性を意識する必要があった。そこで、CSSの機能をJavaScriptのAPIで定義可能にするHoundiniについて、Philip Waltonが解説している。&lt;/p&gt;
+
+&lt;h3 id=&#34;introducing-design-systems-ops-by-kaelig-https-medium-com-kaelig-introducing-design-systems-ops-7f34c4561ba7-fxghecw28:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://medium.com/@kaelig/introducing-design-systems-ops-7f34c4561ba7#.fxghecw28&#34;&gt;Introducing Design Systems Ops by Kaelig&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;デザイナとエンジニアの間にある問題。そんなよくある問題を解決するためのDesign Systems Opsという存在とその役割について。中大規模な組織に属していたらDesign Systems Opsという役割を意識してもいいかも。&lt;/p&gt;
+
+&lt;h3 id=&#34;serviceworker-cookbook-https-serviceworke-rs:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://serviceworke.rs/&#34;&gt;ServiceWorker Cookbook&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;目的別に分類されたService Workerのチートシート。初歩から応用までの難易度も表示されている。&lt;/p&gt;
+
+&lt;h3 id=&#34;5-essential-ux-rules-for-dialog-design-by-ux-planet-https-uxplanet-org-5-essential-ux-rules-for-dialog-design-4de258c22116-8weiz6ck7:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://uxplanet.org/5-essential-ux-rules-for-dialog-design-4de258c22116#.8weiz6ck7&#34;&gt;5 Essential UX Rules for Dialog Design by UX Planet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;モーダル・ウィンドウ、この記事ではダイアログと呼んでいる、よくあるUIにおける最低限守るべき5つのルールについて。ルールを覚えるのではなく、ルールの裏にある理由を理解しておくべき。&lt;/p&gt;
+
+&lt;h3 id=&#34;tcpdump-is-amazing-by-julia-evans-http-jvns-ca-blog-2016-03-16-tcpdump-is-amazing:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;http://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/&#34;&gt;tcpdump is amazing by Julia Evans&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;パフォーマンス解析をしていると欠かすことができないtcpdump。どうやって使ったらいいのかさっぱりわからないという人にわかりやすい解説。HTTPのリクエストが遅い場合などのケースに合わせて実際のコマンドを紹介しているので便利。&lt;/p&gt;
+
+&lt;h3 id=&#34;leveling-up-with-react-container-components-by-css-tricks-https-css-tricks-com-learning-react-container-components:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://css-tricks.com/learning-react-container-components/&#34;&gt;Leveling Up With React: Container Components by CSS-Tricks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Brad Westfall氏によるReactチュートリアル3部作の2部目。今回はContainer Componentsについて。Reactらしさが出てくるあたりなのできちんと理解しておきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;what-makes-software-good-by-mike-bostock-https-medium-com-mbostock-what-makes-software-good-943557f8a488-trfveq304:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://medium.com/@mbostock/what-makes-software-good-943557f8a488#.trfveq304&#34;&gt;What Makes Software Good? by Mike Bostock&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;D3の作者であるMike Bostock氏による、優れたソフトウェアとは何かについて。そしてD3の今後についても詳しく書かれている。かなりの分量なので、時間がある際にじっくりとどうぞ。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:db6710c816daa161bc480a4d3fb3b232&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;dirty-tricks-from-the-dark-corners-of-front-end-by-vitaly-friedman-https-speakerdeck-com-smashingmag-dirty-tricks-from-the-dark-corners-of-front-end:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/smashingmag/dirty-tricks-from-the-dark-corners-of-front-end&#34;&gt;Dirty Tricks From The Dark Corners Of Front-End by Vitaly Friedman&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Smashing MagazineのVitaly Friedman氏による、フロントエンドエンジニアのためのトリック集。かなりの大作。多くの『工夫』が紹介されているので、困ったときのリファレンスに。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:db6710c816daa161bc480a4d3fb3b232&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:db6710c816daa161bc480a4d3fb3b232&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:db6710c816daa161bc480a4d3fb3b232&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mobilexweb.com/blog/safari-on-ios-9-3-picture-shrink-fit-iphone-se&#34;&gt;&lt;strong&gt;Safari on iOS 9.3, Responsive Images, iPhone SE, shrink-to-fit and other new APIs by Breaking the Mobile Web&lt;/strong&gt;&lt;/a&gt;: iOS 9.3のMobile Safariの変更点のまとめ。大きいところではpicture要素の採用や、tapイベントの300msの遅延の削除。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://remysharp.com/2016/03/22/the-copy--paste-guide-to-your-first-service-worker&#34;&gt;&lt;strong&gt;The copy &amp;amp; paste guide to your first Service Worker&lt;/strong&gt;&lt;/a&gt;: Service Workerをとりあえずでも動かしたい人向け。習うより慣れろ。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.dev-area.net/2015/12/11/why-we-switched-to-webpack-away-from-browserify/&#34;&gt;&lt;strong&gt;Why we switched to webpack away from browserify by blog.dev-area.net&lt;/strong&gt;&lt;/a&gt;: BrowserifyからWebpackへ移行した理由。重複したモジュールを自動で最適化できたり、見やすいシンタックスなどが理由とのこと。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lendmeyourear.net/layering-css-so-we-can-use-flexbox-now.html&#34;&gt;&lt;strong&gt;Layering CSS so we can use flexbox now by Lee Jordan&lt;/strong&gt;&lt;/a&gt;: flexboxを今から利用するために知っておきたいフォールバックの書き方について。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/03/integrate-motion-design-animation-ux-workflow/&#34;&gt;&lt;strong&gt;How To Integrate Motion Design In The UX Workflow by Smashing Magazine&lt;/strong&gt;&lt;/a&gt;: UXワークフロー中、どうやってモーションデザインを組み込むべきか。いつ、どこでという大事な質問について。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/arianaaimani/The-Online-UI-UX-Major&#34;&gt;&lt;strong&gt;The-Online-UI-UX-Major by Ariana Aimani&lt;/strong&gt;&lt;/a&gt;: UIとUXにまつわるオンラインの教材をまとめて紹介。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.62</title>
+      <link>https://frontendweekly.tokyo/backnumbers/62/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/62/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-62:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;Frontend Weekly Vol.62&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;answers-to-questions-about-performance-by-google-developers-https-medium-com-google-developers-answers-to-questions-about-performance-9806d2dadfe2-si6xrqt14:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://medium.com/google-developers/answers-to-questions-about-performance-9806d2dadfe2#.si6xrqt14&#34;&gt;Answers to Questions About Performance by Google Developers&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;パフォーマンスはなぜ大切なのか。Googleでパフォーマンスの専門家として知られるPaul Lewis氏によるオピニオン。ライブラリとフレームワークの差などにも触れられているが、本当に大切なのはユーザのことを考えること。&lt;/p&gt;
+
+&lt;h3 id=&#34;progressive-web-apps-the-long-game-https-remysharp-com-2016-03-18-progressive-web-apps-the-long-game:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://remysharp.com/2016/03/18/progressive-web-apps-the-long-game&#34;&gt;Progressive web apps: the long game&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Remy Sharp氏による、Progressive Web Appsを体現する魔法と称したService WorkerとWeb App Manifestについての意見。&lt;/p&gt;
+
+&lt;h3 id=&#34;maybe-we-could-tone-down-the-javascript-by-fuzzy-notepad-https-eev-ee-blog-2016-03-06-maybe-we-could-tone-down-the-javascript:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://eev.ee/blog/2016/03/06/maybe-we-could-tone-down-the-javascript/&#34;&gt;Maybe we could tone down the JavaScript by fuzzy notepad&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;JavaScriptは確かにWebにおいて重要な言語であることは間違いない。しかし、現状のJavaScriptへの依存は過剰といえるのではないか? Tweet画面を一例に現状と改善について紹介。&lt;/p&gt;
+
+&lt;h3 id=&#34;javascript-modules-a-beginner-s-guide-free-code-camp-medium-https-medium-freecodecamp-com-javascript-modules-a-beginner-s-guide-783f7d7a5fcc-46srsbnts:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.46srsbnts&#34;&gt;JavaScript Modules: A Beginner’s Guide — Free Code Camp — Medium&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;JavaScriptにおけるモジュールとはなにか。AMDやCommonJSはもちろん、UMDやES6のモジュールなども詳しく紹介。初学者はもちろんのこと、中級者にとっても詳しいリファレンスとしておすすめ。&lt;/p&gt;
+
+&lt;h3 id=&#34;atomic-design-を実案件に導入-ui-コンポーネントの粒度を明確化した結果と副産物-by-ygoto3-com-http-ygoto3-com-posts-atomic-design-on-actual-project:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;http://ygoto3.com/posts/atomic-design-on-actual-project/&#34;&gt;Atomic Design を実案件に導入 - UI コンポーネントの粒度を明確化した結果と副産物 by ygoto3.com&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bradfrost.com/blog/post/atomic-web-design/&#34;&gt;Atomic Design&lt;/a&gt;のプロジェクト導入談。どのような方法で浸透させたか、そして結果どのようなメリット・課題が生まれたかが具体的に書かれている。&lt;/p&gt;
+
+&lt;h3 id=&#34;the-web-s-original-sin-by-quirksblog-http-www-quirksmode-org-blog-archives-2016-03-the-webs-origin-html:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;http://www.quirksmode.org/blog/archives/2016/03/the_webs_origin.html&#34;&gt;The web’s original sin by QuirksBlog&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Webが持つ原罪であるコンテンツは無料であるということ。PPK氏らしい見方で、プロとしてコンテンツを制作してご飯を食べている人たちと、広告ブロッカーについての意見を熱く語っている。&lt;/p&gt;
+
+&lt;h3 id=&#34;stop-moaning-that-you-don-t-have-time-and-prove-it-https-boagworld-com-digital-strategy-how-to-find-the-time:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://boagworld.com/digital-strategy/how-to-find-the-time/&#34;&gt;Stop moaning that you don&amp;rsquo;t have time and prove it!&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;我々に取っては避けがたいといえる『時間がない』病。しかし、はたしてその時間の無さを可視化したことはあるだろうか? 時間を作り出すのも大切なスキルの1つ。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;breaking-up-with-media-queries-by-patrick-fulton-https-speakerdeck-com-patrickfulton-breaking-up-with-media-queries:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/patrickfulton/breaking-up-with-media-queries&#34;&gt;Breaking up with media queries by Patrick Fulton&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;モジュラーなHTML/CSS設計が定着してきている今、従来のMediaQueriesのあり方を見直してみよう。本スライドではElement/Container Queriesのアプローチをいくつか紹介。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:b08dd4d6388e26901dd3a1d5b5a31aaa&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/1000ch/grd&#34;&gt;&lt;strong&gt;grd: A CSS grid framework using Flexbox. Only 512 bytes (Gzipped&lt;/strong&gt;).&lt;/a&gt;: Flexboxで実装されたグリッドフレームワーク。ガター等のヘルパーも省かれておりGzippedで512バイトと軽量。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vasanthk/js-bits&#34;&gt;&lt;strong&gt;js-bits: JavaScript concepts with code&lt;/strong&gt;!&lt;/a&gt;: BindやCurryなどJavaScriptのコンセプトをコード例で。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/&#34;&gt;&lt;strong&gt;How DHH organizes his Rails controllers by Jerome&amp;rsquo;s Adventures in Software&lt;/strong&gt;&lt;/a&gt;: Railsの生みの親であるDHH氏はRailsのコントローラを実際にどう整理しているのか?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.intercom.io/knowing-when-to-reinvent-the-wheel/&#34;&gt;&lt;strong&gt;Know When To Reinvent The Wheel by Inside Intercom&lt;/strong&gt;&lt;/a&gt;: 車輪の再発明はさけるべきしかし、よいプロダクトを作るために必要になることもある。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pmdartus/snapline&#34;&gt;&lt;strong&gt;snapline: Unleash your screenshots stored in Chrome Devtool timeline files&lt;/strong&gt;&lt;/a&gt;: Chromeの開発者ツールで利用できる読み込みのタイミングに合わせたスクリーンショット集をGifアニメーションに変換する。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frontend Weekly Vol.61</title>
+      <link>https://frontendweekly.tokyo/backnumbers/61/</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://frontendweekly.tokyo/backnumbers/61/</guid>
+      <description>
+
+&lt;h1 id=&#34;frontend-weekly-vol-61:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;Frontend Weekly Vol.61&lt;/h1&gt;
+
+&lt;h2 id=&#34;headlines:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;Headlines&lt;/h2&gt;
+
+&lt;h3 id=&#34;giving-better-code-reviews-by-joel-kemp-https-medium-com-mrjoelkemp-giving-better-code-reviews-16109e0fdd36-ssz9gnk41:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36#.ssz9gnk41&#34;&gt;Giving better code reviews by Joel Kemp&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;コードレビューを開発プロセスに入っていることももう当たり前になって来だろう。ではよりよいコードレビューとはどんなものかについてアイデアはあるだろうか?
+記事ではコードレビューをコーディングと同じくらい重要なプロセスと位置づけてどんなレビューをするべきかについて紹介している。&lt;/p&gt;
+
+&lt;h3 id=&#34;content-and-display-patterns-with-expressive-css-http-johnpolacek-com-content-display-patterns:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;http://johnpolacek.com/content-display-patterns/&#34;&gt;Content and Display Patterns with Expressive CSS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Dan Mall氏による&lt;a href=&#34;http://danielmall.com/articles/content-display-patterns/&#34;&gt;Content and Display Patterns&lt;/a&gt;で紹介されたパターンに対し、自身で開発した&lt;a href=&#34;http://johnpolacek.github.io/expressive-css/&#34;&gt;Expressive CSS&lt;/a&gt;を適応したケーススタディ。&lt;/p&gt;
+
+&lt;h3 id=&#34;styling-broken-images-http-bitsofco-de-styling-broken-images:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;http://bitsofco.de/styling-broken-images/&#34;&gt;Styling Broken Images&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;取得失敗時などに現れる&amp;rdquo;壊れた画像&amp;rdquo;をスタイリングするテクニック。擬似要素が置換要素にのみ表示されるという特性を上手く利用している。&lt;/p&gt;
+
+&lt;h3 id=&#34;on-classification-in-design-systems-by-eightshapes-https-medium-com-eightshapes-llc-on-classification-in-design-systems-6b33b97f4a8f-azj2hz6za:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://medium.com/eightshapes-llc/on-classification-in-design-systems-6b33b97f4a8f#.azj2hz6za&#34;&gt;On Classification in Design Systems by EightShapes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;システム全体をデザインする上で欠かすことができない命名。共通の単語をチームで持つ事はとても大切なことながら、いつだって命名は難しい。そんなシステムの命名のこれまでと現状をまとめた良記事。&lt;/p&gt;
+
+&lt;h3 id=&#34;four-things-great-designers-care-about-by-ux-magazine-http-uxmag-com-articles-four-things-great-designers-care-about-ref-uxdesignweekly:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;http://uxmag.com/articles/four-things-great-designers-care-about?ref=uxdesignweekly&#34;&gt;Four Things Great Designers Care About by UX Magazine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;優れたデザイナが気をつけている4つのこと。4つのことはとても当たり前のことばかり。4月も近いので心機一転、基本に立ち返ってみよう。&lt;/p&gt;
+
+&lt;h3 id=&#34;microinteractions-the-secret-of-great-app-design-by-ux-planet-https-uxplanet-org-microinteractions-the-secret-to-great-app-design-4cfe70fbaccf-pzbhj9vtl:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://uxplanet.org/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf#.pzbhj9vtl&#34;&gt;Microinteractions: The Secret of Great App Design by UX Planet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;優れたプロダクトには人を惹きつける機能とディテールが共存している。この記事では、後者のディテールをマイクロインタラクションを活用して彩るために知っておきたいことをまとめている。&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-deploy-software-https-zachholman-com-posts-deploying-software:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://zachholman.com/posts/deploying-software&#34;&gt;How to Deploy Software&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;元GitHubのZach Holman氏によるデプロイに関する詳細な解説。いかにしてデプロイを『退屈な』ものにできるのかはサービスを開発する上で重要になってくる。&lt;/p&gt;
+
+&lt;h2 id=&#34;slides:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;h3 id=&#34;gulp-the-good-parts-by-yoshihide-jimbo-https-speakerdeck-com-jmblog-gulp-the-good-parts:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/jmblog/gulp-the-good-parts&#34;&gt;gulp: The Good Parts by Yoshihide Jimbo&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;「FRONTEND CONFERENCE 2016」で発表されたgulpのプラクティス集。端的にまとまっているので、これからgulpに触れる人は一読の価値あり。&lt;/p&gt;
+
+&lt;h2 id=&#34;announcement:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;Announcement&lt;/h2&gt;
+
+&lt;h3 id=&#34;frontend-meetup-tokyo-vol-1-pr-http-frontend-connpass-com-event-28369:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;http://frontend.connpass.com/event/28369/&#34;&gt;Frontend Meetup Tokyo vol.1 (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;2016/03/24 18:30~&lt;/strong&gt;&lt;br /&gt;
+W3CのTAG(Technical Architecture Group)メンバーであるAndrew Betts氏とDuckDuckGo所属のDaniel Davis氏による講演。&lt;br /&gt;
+席数残り少ないので早めに登録を。&lt;/p&gt;
+
+&lt;h3 id=&#34;slack-for-frontend-weekly-pr-https-studiomohawk-typeform-com-to-kj8gaj:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;&lt;a href=&#34;https://studiomohawk.typeform.com/to/Kj8Gaj&#34;&gt;Slack for Frontend Weekly (PR)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Frontend Weeklyの『実験的』Slackコミュニティに興味がある方は、こちらから招待をリクエストしてください。 週次で50人くらいずつ招待をして行くつもりです。&lt;/p&gt;
+
+&lt;h2 id=&#34;in-brief:ab389f989c1c89301e0314f9e85ae33e&#34;&gt;In Brief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ChromeDevTools/awesome-chrome-devtools&#34;&gt;&lt;strong&gt;Awesome tooling and resources in the Chrome DevTools ecosystem&lt;/strong&gt;&lt;/a&gt;: Chrome Devtools関連のツールやリソースのまとめ。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kungfoo.bar/loose-coupling-is-a-lie-c8f37f3bec5d#.8ywpdkom6&#34;&gt;&lt;strong&gt;Loose Coupling Is A Lie by kungfoo bar&lt;/strong&gt;&lt;/a&gt;: 疎結合はよいことであるが、完璧な疎結合はありえない。よいデザインパターンを目指すべき。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/airbnb-engineering/enzyme-javascript-testing-utilities-for-react-a417e5e5090f#.35e6yvhxk&#34;&gt;&lt;strong&gt;Enzyme: JavaScript Testing utilities for React by Airbnb Engineering &amp;amp; Data Science&lt;/strong&gt;&lt;/a&gt;: Reactのためのテストユーティリティ、Enzymeについての紹介。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/szynszyliszys/repaintless&#34;&gt;&lt;strong&gt;Library for fast CSS Animations&lt;/strong&gt;&lt;/a&gt;: CSSのアニメーションパフォーマンスを向上させるライブラリ。ソースコードリーディングに。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yuschick/SnapFoo&#34;&gt;&lt;strong&gt;SnapFoo is an open source JavaScript library that extends off of SnapSVG to help simplify the SVG animation process.&lt;/strong&gt;&lt;/a&gt;: SnapSVGを拡張したSVGアニメーションライブラリ。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
